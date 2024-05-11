@@ -43,4 +43,7 @@ ol li:not(:last-child) {
 }
 
 @media screen and (max-width: 749px) {
+  .text {
+    padding-left: 1rem;
+  }
 }

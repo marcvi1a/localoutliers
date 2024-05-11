@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   justify-content: left;
   padding-left: 2rem;
+  margin-top: 1.1.rem;
 }
 
 h1 {

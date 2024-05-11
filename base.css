@@ -11,6 +11,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  padding-left: 2rem;
+}
+
+h1 {
+  height: 1rem;
+}
+
+a {
+  color: #378DE2;
+  text-decoration: none;
 }
 
 ul li:first-child,
@@ -32,16 +42,4 @@ ol li:not(:last-child) {
 }
 
 @media screen and (max-width: 749px) {
-  .text {
-    height: 90vh;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    height: 0.9rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
 }

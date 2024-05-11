@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: #171A1C;
+  height: 1rem;
+}
+
+p {
+  color: #ccc;
+}
+
+@media screen and (max-width: 749px) {
+  .text {
+    height: 90vh;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    height: 0.9rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
